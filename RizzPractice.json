@@ -1,5 +1,4 @@
-export default function handler(req, res) {
-  const characters = [
+[
     {
       "id": "rizz_001",
       "imageURL": "https://i.imgur.com/b7BFrgD.jpeg",
@@ -130,7 +129,4 @@ export default function handler(req, res) {
       "background": "Former national kickboxing champion who now teaches classes. Grew up with three brothers. Loves board games (and winning them), spicy food, gym mornings and people who don't get intimidated easily.",
       "role": "You just did a trial class at her kickboxing gym and she sent you a follow request. You're DMing her after class."
     }
-  ];
-
-  res.status(200).json(characters);
-}
+  ]
